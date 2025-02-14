@@ -9,8 +9,8 @@
 /_______  /\___|_  /|___|  \___/\____|__  / 
         \/       \/                     \/  
                     
-DISCORD :  https://discord.com/invite/xQF9f9yUEM                   
-YouTube : https://www.youtube.com/@GlaceYT                         
+DISCORD :                  
+YouTube :                          
 
 Command Verified : ✓  
 Website        : ssrr.tech  
@@ -125,8 +125,8 @@ module.exports = {
                 pages.push({
                     title: 'Bot Information',
                     description: [
-                        `- **Developer:** GlaceYT`,
-                        `- **Version:** 1.2.1`,
+                        `- **Developer:** Zeldris`,
+                        `- **Version:** 1.`,
                         `- **Commands Loaded:** ${totalCommandsLoaded}`,
                         `- **Master Commands:** ${masterCount}`,
                         `- **Sub Commands:** ${subCount}`,
