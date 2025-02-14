@@ -126,7 +126,7 @@ module.exports = {
                     title: 'Bot Information',
                     description: [
                         `- **Developer:** Zeldris`,
-                        `- **Version:** 1.`,
+                        `- **Version:** 1`,
                         `- **Commands Loaded:** ${totalCommandsLoaded}`,
                         `- **Master Commands:** ${masterCount}`,
                         `- **Sub Commands:** ${subCount}`,
@@ -134,7 +134,7 @@ module.exports = {
                         `- **Categories Enabled:** ${getEnabledCategories(config.categories).join(', ')}`,
                         `- **Prefix Commands:** ${Object.values(config.excessCommands).some(v => v) ? 'Enabled' : 'Disabled'}`
                     ].join('\n'),
-                    author: { name: 'All In One Bot' }
+                    author: { name: '🍃・Vortex' }
                 });
 
                 // Command Pages for each category
@@ -193,7 +193,7 @@ module.exports = {
                     .setAuthor({
                         name: page.author.name,
                         iconURL: BOT_ICON,
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        url: "https://discord.gg/8VaW2SvXB9"
                     })
                     .setTimestamp();
 
@@ -304,7 +304,7 @@ module.exports = {
                 .setAuthor({
                     name: "Alert!",
                     iconURL: cmdIcons.dotIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/8VaW2SvXB9"
                 })
                 .setDescription('- This command can only be used through slash command!\n- Please use `/help`')
                 .setTimestamp();
