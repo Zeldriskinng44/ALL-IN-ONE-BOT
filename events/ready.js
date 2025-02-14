@@ -6,11 +6,7 @@ module.exports = {
     execute(client) {
   
         const activities = [
-             { name: 'helo my name is Vortex  System server  only 
-Enhance Your Community – Automate tasks,
-Default prefix:/
-all cmd :  /help
-  support server for updates: https://discord.gg/8VaW2SvXB9', type: ActivityType.Listening },     
+             { name: 'spotify', type: ActivityType.Listening },     
         ];
 
      
