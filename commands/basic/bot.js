@@ -9,8 +9,8 @@
 /_______  /\___|_  /|___|  \___/\____|__  / 
         \/       \/                     \/  
                     
-DISCORD :  https://discord.com/invite/xQF9f9yUEM                   
-YouTube : https://www.youtube.com/@GlaceYT                         
+DISCORD :                    
+YouTube :                         
 
 Command Verified : ✓  
 Website        : ssrr.tech  
@@ -78,12 +78,7 @@ module.exports = {
             })
             .setDescription(`
                 ➡️ **${lang.supportDescriptionTitle}:**
-                - ${lang.discord} - ${supportServerLink}
-                
-                ➡️ **${lang.followUsOn}:**
-                - ${lang.github} - ${githubLink}
-                - ${lang.replit} - ${replitLink}
-                - ${lang.youtube} - ${youtubeLink}
+                - ${lang.discord} - ${supportServerLink}    
             `)
             .setImage(lang.supportImageURL)
             .setTimestamp();
@@ -102,7 +97,7 @@ module.exports = {
         .setAuthor({ 
           name: lang.inviteTitle, 
           iconURL: cmdIcons.rippleIcon,
-          url: "https://discord.gg/xQF9f9yUEM" 
+          url: "https://discord.gg/8VaW2SvXB9" 
         })
         .setDescription(lang.inviteDescription.replace('{inviteURL}', inviteURL))
         .setTimestamp();
@@ -115,7 +110,7 @@ module.exports = {
         .setAuthor({ 
             name: "Alert!", 
             iconURL: cmdIcons.dotIcon,
-            url: "https://discord.gg/xQF9f9yUEM"
+            url: "https://discord.gg/8VaW2SvXB9"
         })
         .setDescription('- This command can only be used through slash command!\n- Please use `/bot`')
         .setTimestamp();
@@ -136,8 +131,8 @@ module.exports = {
 /_______  /\___|_  /|___|  \___/\____|__  / 
         \/       \/                     \/  
                     
-DISCORD :  https://discord.com/invite/xQF9f9yUEM                   
-YouTube : https://www.youtube.com/@GlaceYT                         
+DISCORD :                 
+YouTube :                         
 
 Command Verified : ✓  
 Website        : ssrr.tech  
